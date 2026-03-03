@@ -25,5 +25,4 @@ def check_availability():
                     return t["sets"] > 0
     return False
 
-if check_availability():
-    send_discord(f"🔥 {DATE} {TARGET_TIME} 2名に空きが出ました！")
+send_discord("✅ テスト通知です（GitHub Actions動作確認）")
